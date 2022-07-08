@@ -1,0 +1,83 @@
+.head-banner{
+   background-color: #533e3e;
+   padding-top:8rem;
+   padding-bottom:8rem;
+   background-image: url(https://th.bing.com/th/id/R.e407835f5dac918c02e5b1e326ef2e85?rik=0nMtltLgCQI%2bzQ&pid=ImgRaw&r=0 )
+   ;
+   background-position: left;
+   background-size: cover;
+   background-blend-mode: multiply;
+}
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.bi{
+    font-size: 60px;
+
+}
+.sezione-immagini .immagine{
+    min-height:30rem;
+    background-size: cover;
+}
+.sezione-immagini .testo{
+    padding:3rem;
+}
+#titolo{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    
+
+}
+#primo:hover{
+    font-size: 19px;
+    border:1px solid yellow;
+    border-radius: 4px;
+
+    
+}
+#secondo:hover{
+    font-size: 19px;
+    border:1px solid yellow;
+    border-radius: 4px;
+    
+    
+}
+
+.ci{
+    background-color:#533e3e
+}
+.j{
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Carre.svg/501px-Carre.svg.png);
+   
+    background-size: cover;
+
+   height: 390px;
+   
+   
+
+  
+
+
+    
+   
+}
+.b{
+    position:fixed;
+
+}
+@media screen and (min-width:768px){
+    .head-banner{
+        padding-top:12rem;
+        padding-bottom:12rem;
+    }
+    .sezione-immagini .testo{
+        padding:7rem;
+    }
+    .j{
+        width: max-content;
+    }
+}
+
